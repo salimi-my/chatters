@@ -1,27 +1,46 @@
-# Next.js + Tailwind CSS Example
+# [Chatters](https://chatters.salimi.my) &middot; [![Author Salimi](https://img.shields.io/badge/Author-Salimi-%3C%3E)](https://www.linkedin.com/in/mohamad-salimi/)
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This a simple chat app created using Next.js 13 for educational purposes. User can login using Google Login API and send messages or chats.
 
-## Deploy your own
+## Simple Chat App
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- This is a simple chat app
+- Login using NextAuth.js through Google login API
+- Realtime chat using Upstash, Redis & Pusher
+- NextJS 13 app directory
+- Hosted in Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Tech/framework used
 
-## How to use
+- Next.js
+- NextAuth.js
+- Tailwind CSS
+- Upstash
+- Pusher
+- Typescript
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Starting the project
+
+Open the [.env.local.example](/.env.local.example) and fill in your Redis Configurations, Pusher Configurations & NextAuth Configurations then save it as .env.local the run the following command:
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+npm run dev
+# or
+yarn run dev
 ```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Demo
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+The app hosted on Vercel. [Click here](https://chatters-salimi.my) to visit.
+<br>
+Direct link: `https://chatters.salimi.my`
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Screenshots
+
+#### Login
+
+![Login](/screenshots/screenshot-1.png)
+
+#### Chats
+
+![Chats](/screenshots/screenshot-2.png)
