@@ -16,7 +16,7 @@ async function HomePage() {
 
   return (
     <Providers session={session}>
-      <main className='w-full bg-gray-50 border-x h-[calc(100vh-132px-91px)]'>
+      <main className='w-full bg-gray-50 border-x min-h-[calc(100vh-132px-91px)]'>
         <MessageList initialMessages={messages} />
         <ChatInput session={session} />
       </main>
