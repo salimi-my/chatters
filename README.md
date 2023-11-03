@@ -1,6 +1,6 @@
 # [Chatters](https://chatters.salimi.my) &middot; [![Author Salimi](https://img.shields.io/badge/Author-Salimi-%3C%3E)](https://www.linkedin.com/in/mohamad-salimi/)
 
-This a simple chat app created using Next.js 13 for educational purposes. User can login using Google Login API and send messages or chats.
+This a simple chat app created using Next.js 13 for educational purposes. User can login using Google Login API and send real time messages or chats.
 
 ## Simple Chat App
 
@@ -17,7 +17,7 @@ This a simple chat app created using Next.js 13 for educational purposes. User c
 - Tailwind CSS
 - Upstash
 - Pusher
-- Typescript
+- TypeScript
 
 ## Starting the project
 
