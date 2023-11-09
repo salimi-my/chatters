@@ -5,7 +5,7 @@ This a simple chat app created using Next.js 13 for educational purposes. User c
 ## Simple Chat App
 
 - This is a simple chat app
-- Login using NextAuth.js through Google login API
+- Login using NextAuth.js
 - Realtime chat using Upstash, Redis & Pusher
 - NextJS 13 app directory
 - Hosted in Vercel
@@ -24,9 +24,8 @@ This a simple chat app created using Next.js 13 for educational purposes. User c
 Open the [.env.local.example](/.env.local.example) and fill in your Redis Configurations, Pusher Configurations & NextAuth Configurations then save it as .env.local the run the following command:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn run dev
 ```
 
 ## Demo
